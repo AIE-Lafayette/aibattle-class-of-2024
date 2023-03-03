@@ -153,10 +153,13 @@
     <ClCompile Include="Agent1.cpp" />
     <ClCompile Include="Agent2.cpp" />
     <ClCompile Include="Character.cpp" />
+    <ClCompile Include="ChaserComponent.cpp" />
     <ClCompile Include="CircleCollider.cpp" />
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="EvadeComponent.cpp" />
+    <ClCompile Include="FleeComponent.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Goal.cpp" />
     <ClCompile Include="InputComponent.cpp" />
@@ -164,11 +167,15 @@
     <ClCompile Include="MainScene.cpp" />
     <ClCompile Include="MoveComponent.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PursueComponent.cpp" />
     <ClCompile Include="ScoreBoard.cpp" />
     <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SeekComponent.cpp" />
     <ClCompile Include="SpriteComponent.cpp" />
+    <ClCompile Include="StateMachineComponent.cpp" />
     <ClCompile Include="Transform2D.cpp" />
     <ClCompile Include="UITextComponent.cpp" />
+    <ClCompile Include="WanderComponent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AABBCollider.h" />
@@ -178,22 +185,29 @@
     <ClInclude Include="Agent1.h" />
     <ClInclude Include="Agent2.h" />
     <ClInclude Include="Character.h" />
+    <ClInclude Include="ChaserComponent.h" />
     <ClInclude Include="CircleCollider.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="EvadeComponent.h" />
+    <ClInclude Include="FleeComponent.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Goal.h" />
     <ClInclude Include="InputComponent.h" />
     <ClInclude Include="MainScene.h" />
     <ClInclude Include="MoveComponent.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PursueComponent.h" />
     <ClInclude Include="ScoreBoard.h" />
     <ClInclude Include="Scene.h" />
+    <ClInclude Include="SeekComponent.h" />
     <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="StateMachineComponent.h" />
     <ClInclude Include="SteeringComponent.h" />
     <ClInclude Include="Transform2D.h" />
     <ClInclude Include="UITextComponent.h" />
+    <ClInclude Include="WanderComponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
